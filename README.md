@@ -33,6 +33,7 @@ Since Wokwi's simulation environment doesn't support HTTPS connections directly,
     "is_active": 1
   }
 }
+```
 - **Network**: Connects to `Wokwi-GUEST` WiFi network for development/testing
 
 ### 2. Data Transmission
@@ -44,22 +45,16 @@ Since Wokwi's simulation environment doesn't support HTTPS connections directly,
 
 ## Workflow
 1. ESP33 collects MPU6050 sensor data  
-2. Data is transmitted via MQTT to Mosquitto broker by using MQTT topic :  _vibration/data_
+2. Data is transmitted via MQTT to Mosquitto broker
 3. Python script receives data from MQTT and forwards to Supabase via HTTPS
 4. Processed data is stored in Supabase database
 
 ## Project Resources
 - [Wokwi Simulation Project](https://wokwi.com/projects/433371236986210305)
-- [Python Bridge Script](https://github.com/[YOUR_REPO]/blob/main/mqtt_to_supabase.py)
-
-## Usage
-1. Start Mosquitto broker: `mosquitto -v`
-2. Run the bridge script: `python mqtt_to_supabase.py`
-3. Upload and run the ESP33 firmware in Wokwi
-4. Monitor data in your Supabase dashboard
+- [Python Bridge Script](https://github.com/chaymaAitB/XY-Axis-Vibration-Logger-with-Wokwi-and-Database-Sync/blob/main/insert_to_server.py)
 
 ## Results
-
+[Demo](https://github.com/chaymaAitB/XY-Axis-Vibration-Logger-with-Wokwi-and-Database-Sync/blob/main/result.jpg)
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
