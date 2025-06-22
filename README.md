@@ -54,7 +54,7 @@ Since Wokwi's simulation environment doesn't support HTTPS connections directly,
 - [Python Bridge Script](https://github.com/chaymaAitB/XY-Axis-Vibration-Logger-with-Wokwi-and-Database-Sync/blob/main/insert_to_server.py)
 
 ## Results
-[Demo](https://github.com/chaymaAitB/XY-Axis-Vibration-Logger-with-Wokwi-and-Database-Sync/blob/main/result.jpg)
+![Demo](https://github.com/chaymaAitB/XY-Axis-Vibration-Logger-with-Wokwi-and-Database-Sync/blob/main/result.jpg)
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
